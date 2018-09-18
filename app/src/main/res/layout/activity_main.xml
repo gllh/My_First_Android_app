@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.helloliyixin.MainActivity">
+
+
+    <TextView
+        android:text="hello liyixin"
+        android:textColor="#CD00CD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="50px"
+        tools:text="hello liyixin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="李怿欣日历赛高"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/button2"
+        android:background="#00CED1"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="68dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式打开"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/button1"
+        android:background="#BFF0E0"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bilibili"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/button5"
+        android:background="#ADD8E6"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
